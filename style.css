@@ -55,6 +55,8 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 10px;
+    position: sticky;
+    top: 0;
 }
 
 .menu{display: flex;}
@@ -187,3 +189,13 @@ input{
     }
 
 }
+
+.menu>a:hover{
+    font-size: larger;
+    border: 2px;
+    background-color: black;
+    color: red;
+    border-radius: 8px;
+    padding: 5px;
+}
+
