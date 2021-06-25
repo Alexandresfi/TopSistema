@@ -49,7 +49,7 @@ body{
 .redes>a{ margin-right: 50px;}
 
 header{
-    max-width: 100%;
+    max-width: 100vw;
     background-color: #f50205;
     display: flex;
     align-items: center;
@@ -74,7 +74,7 @@ a>li{list-style: none;}
 }
 
 .educa{
-    width: 90%;
+    width: 90vw;
     background-color: seashell;
     color: #0e0c0a;
     margin: auto;
@@ -100,7 +100,7 @@ a>li{list-style: none;}
 }
 
 .texto{
-    width: 90%;
+    width: 90vw;
     margin: auto;
 }
 
@@ -122,7 +122,7 @@ ol{
     padding: 10px;
 }
 .meto{
-    width: 90%;
+    width: 90vw;
     margin: auto;
 }
 
@@ -153,3 +153,37 @@ input{
     width: 200px;
 }
 
+@media screen and (max-width: 893px) {
+
+    .espaco{
+        display: grid;
+        grid-template: auto auto auto auto /  auto;
+        justify-items: center;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .p1>h1{ font-size: 20px; text-align: center; margin-top: -10px;}
+
+    .redes{margin-top: 0px; width: 10px;}
+
+    .imag{width: 120px;}
+    
+    header{
+        max-width: 100%;
+        background-color: #f50205;
+        padding: 10px;
+    }
+    .menu{display: flex;
+        flex-direction: column;
+    }
+    .menu>a{margin-top: auto; margin-bottom: auto; text-decoration: none; color: white; margin-top: 20px;}
+    .t{display: flex; flex-direction: column; align-items: center;}
+
+    .container{
+        display: grid;
+        grid-template: auto auto auto / auto auto auto;
+        justify-items: center;
+    }
+
+}
