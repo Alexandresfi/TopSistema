@@ -1,18 +1,13 @@
 body{
     background-color:#0e0c0a;
     color: white;
+    font-family: 'Heebo', sans-serif;
+    font-size: 17px
 }
 
 *{
     margin: 0;
     padding: 0;
-}
-
-h1,h2,h3{font-family: 'Heebo', sans-serif;}
-
-p{
-    font-family: 'Heebo', sans-serif;
-    font-size: 17px;
 }
 
 .container{
@@ -57,6 +52,7 @@ p{
 
 header{
     max-width: 100vw;
+    box-sizing: border-box;
     background-color: #f50205;
     display: flex;
     align-items: center;
@@ -66,9 +62,9 @@ header{
     top: 0;
 }
 
-.menu{display: flex;}
+#menu{display: flex;}
 
-.menu>a{margin-right: 40px; text-decoration: none; color: white;}
+#menu>a{margin-right: 40px; text-decoration: none; color: white;}
 
 a>li{list-style: none;}
 
@@ -162,7 +158,9 @@ input{
     width: 200px;
 }
 
-@media screen and (max-width: 893px) {
+#mostrar{display: none;}
+
+@media screen and (max-width: 895px) {
 
     .espaco{
         display: grid;
@@ -179,14 +177,13 @@ input{
     .imag{width: 120px;}
     
     header{
+        
         max-width: 100%;
         background-color: #f50205;
         padding: 10px;
     }
-    .menu{display: flex;
-        flex-direction: column;
-    }
-    .menu>a{margin-top: auto; margin-bottom: auto; text-decoration: none; color: white; margin-top: 20px;}
+    #menu>a{margin-top: auto; margin-bottom: auto; text-decoration: none; color: white; margin-top: 20px;}
+
     .t{display: flex; flex-direction: column; align-items: center;}
 
     .container{
@@ -195,9 +192,20 @@ input{
         justify-items: center;
     }
 
+    #mostrar{display: block;}
+
+    #menu{ 
+        display: none;
+    }
+    
+    #nav.ativado #menu{
+        display: block;
+    }
+    
+
 }
 
-.menu>a:hover{
+#menu>a:hover{
     font-size: larger;
     border: 2px;
     background-color: black;
@@ -205,4 +213,3 @@ input{
     border-radius: 8px;
     padding: 5px;
 }
-
