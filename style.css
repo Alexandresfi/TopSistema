@@ -213,7 +213,7 @@ input{
     border-radius: 8px;
     padding: 5px;
 }
-desenvolvedor{
+.desenvolvedor{
     display: flex;
     list-style: none;
     justify-content: flex-end;
