@@ -194,10 +194,11 @@ input{
 
     #mostrar{display: block;}
 	
-	header{display: block;}
+	header{display: block; text-align: center}
 	
     #menu{ 
         display: none;
+	
     }
     
     #nav.ativado #menu{
