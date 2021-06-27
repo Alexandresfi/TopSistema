@@ -182,7 +182,7 @@ input{
         background-color: #f50205;
         padding: 10px;
     }
-    #menu>a{margin-top: auto; margin-bottom: auto; text-decoration: none; color: white; margin-top: 20px;}
+    #menu>a{margin-top: auto; margin-bottom: auto; text-decoration: none; color: black; margin-top: 20px;}
 
     .t{display: flex; flex-direction: column; align-items: center;}
 
@@ -193,7 +193,9 @@ input{
     }
 
     #mostrar{display: block;}
-
+	
+	header{display: block;}
+	
     #menu{ 
         display: none;
     }
