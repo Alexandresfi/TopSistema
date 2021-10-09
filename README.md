@@ -1,6 +1,4 @@
 # TopSistema
 
-Este projeto foi criado após a contratação freelancer para um colégio da minha cidade.
-Todas as artes usadas neste projeto já vieram prontas, porém, alguns texto foram criados pela minha pessoa.
-Neste projeto foi usado HTML, CSS e um pouco de Javascript.
-Acesse: https://topsistemadeensino.netlify.app/ para visualizar o site.
+Este projeto, serviu como base para uma ideia para um site de um colégio. 
+O mesmo foi aprovado e o novo site está em construção. 
